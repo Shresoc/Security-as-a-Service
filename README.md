@@ -12,7 +12,7 @@ The SecOps Cloud Platform stands as a singular, cohesive framework for crafting 
 By streamlining the acquisition, deployment, and integration of top-tier cybersecurity tools, the SecOps Cloud Platform ensures that every organization receives a defense that is not just comprehensive but also finely attuned to its unique demands. This is the future of cybersecurity, mirroring the tailored support that IT Clouds have long provided to enterprises.
 
 
-# Let’s hop into the LimaCharlie web UI and check out some basic features.
+# LimaCharlie web UI.
 
 A) Click “Sensors” on left menu
 
@@ -24,7 +24,7 @@ C) On the new left-side menu for this sensor, click “Processes”
 
 ![Processes ](https://github.com/Shresoc/Security-as-a-Service/assets/168186856/7b7ec61a-6cee-40c7-942b-450e2bc1a279)
 
-# Spend a few minutes exploring what is returned in the process tree. Hover over some of the icons to see what they represent.
+# Exploring what is returned in the process tree. 
 
 1) I can’t stress enough how important it is for an analyst to have familiarity with the most common processes you’ll encounter on even a healthy system. As the saying goes, “you must know normal before you can 
    find evil.” For some helpful resources in “knowing normal”, check out the “Hunt Evil” poster from SANS and sign up for a account at EchoTrail.
@@ -41,11 +41,11 @@ C) On the new left-side menu for this sensor, click “Processes”
 
 5) Notice how quickly we are able to identify the destination IP this process is communicating with.
 
-   # Now click the “Network” tab on the left-side menu
+   # “Network” tab on the left-side menu
 
    ![Networks](https://github.com/Shresoc/Security-as-a-Service/assets/168186856/94d286f5-3cbd-4e25-b7a7-abe26da018f0)
 
-   # Now click the “File System” tab on the left-side menu
+   # “File System” tab on the left-side menu
 
    ![File Systems Downloads](https://github.com/Shresoc/Security-as-a-Service/assets/168186856/4f641947-177b-458b-a16d-597c9d7008af)
 
@@ -57,7 +57,7 @@ C) On the new left-side menu for this sensor, click “Processes”
 
 3) Pro Tip: While it says “Scan with VirusTotal,” what it’s actually doing is querying VirusTotal for the hash of the EXE. If the file is a common/well-known malware sample, you will know it right away. However, “Item not found” on VT does not mean that this file is innocent  just that it’s never been seen before by VirusTotal. This is an important lesson for any analyst to learn — if you already suspect a file to be possible malware, but VirusTotal has never seen it before, trust your gut. This actually makes a file even more suspicious because nearly everything has been seen by VirusTotal, so your sample may have been custom-crafted/targeted which ups the ante a bit. In a mature SOC, this would likely affect the TLP of the IOC and/or case itself.
 
-# Click “Timeline” on the left-side menu of our sensor. This is a near real-time view of EDR telemetry + event logs streaming from this system.
+#  “Timeline” on the left-side menu of our sensor. This is a near real-time view of EDR telemetry + event logs streaming from this system.
 
 ![Time line](https://github.com/Shresoc/Security-as-a-Service/assets/168186856/bf10ab8c-0b90-41b5-a0fe-a3389e7c33ff)
 
