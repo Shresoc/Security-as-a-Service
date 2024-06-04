@@ -107,8 +107,10 @@ b) Drill into the Timeline of your Windows VM sensor and use the “Event Type F
 
    f) Scroll to the bottom of the raw event and click “Test Event” to see if our detection would work against this event.
 
-      ![Test Event](https://github.com/Shresoc/Security-as-a-Service/assets/168186856/58b6d568-30fa-494d-9ed1-2d20d3e9abcb)
-               Notice that we have a “Match” and the D&R engine tells you exactly what it matched on.
+ ![Test Event](https://github.com/Shresoc/Security-as-a-Service/assets/168186856/58b6d568-30fa-494d-9ed1-2d20d3e9abcb)
+      
+   
+   g) Notice that we have a “Match” and the D&R engine tells you exactly what it matched on.
 
 
 # Let’s Be Bad Again, Now with Detections!
