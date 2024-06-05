@@ -1,5 +1,6 @@
 # Security-as-a-Service with LimaCharlie EDR (SecOps Cloud Platform)
 Creation of entire Security-as-a-Service infrastructure with VMs, EDR, and other inbuilt Security as a Service features.
+![First](https://github.com/Shresoc/Security-as-a-Service/assets/168186856/2a5d43f9-8867-4e83-94b3-f744c38a19ed)
 
 LimaCharlie is a very powerful “SecOps Cloud Platform”. It not only comes with a cross-platform EDR agent, but also handles all of the log shipping/ingestion and has a threat detection engine. I am a huge fan of LimaCharlie for many reasons, one of which is that they have a free tier for up to two systems which is what allows me to make it an instrumental part of this project.
 
